@@ -7,9 +7,11 @@ const MainContainer = () => {
 
     const movies= useSelector(store=>store.movies?.nowPlayingMovies);
 
+    // Early return to avoid error
     if(movies==null){
         return;
     }
+    
 
     const mainMovie= movies[0];
     //console.log(mainMovie);
