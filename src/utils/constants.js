@@ -9,7 +9,7 @@ export const LOGO =
     headers: {
       accept: "application/json",
       Authorization: 
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZjJlZjc0Njc5YzUwODY3MDY1NmI3YjgzODU5YzZlZCIsInN1YiI6IjY1Yzc1MGIyZTI5NWI0MDE3YmY4MDllYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GVUDVG298GMM5wq-m1Y6Fsyx-HWL6tQlZhEG692sWMo",
+      "Bearer "+ process.env.REACT_APP_TMDB_KEY,
     },
   };
 
@@ -22,3 +22,7 @@ export const LOGO =
     { identifier: "hindi", name: "Hindi" },
     { identifier: "spanish", name: "Spanish" },
   ];
+
+  
+
+  export const GEMINI_API=process.env.REACT_APP_GEMINI_KEY;
