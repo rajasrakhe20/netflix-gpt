@@ -33,7 +33,7 @@ MovieGPT is a modern web application that combines movie discovery with AI-power
 
 ### Prerequisites
 
-- Node.js (v14.0.0 or later)
+- React.js (v16.0.0 or later)
 - npm or yarn
 - Firebase account
 - TMDB API key
@@ -130,9 +130,9 @@ You can deploy the `build` folder to services like:
 - 🐙 GitHub Pages
 
 
-## 📄 License
+<!-- ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details. -->
 
 ## 🙏 Acknowledgments
 
